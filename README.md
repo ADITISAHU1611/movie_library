@@ -30,15 +30,8 @@ cd movie-library-app
 
 ## Screenshots
 
-### Login Page
-![Login Page](screenshots/login.png)
-
-### Watchlist Page
-![Signup Page](screenshots/watchlist.png)
-
-### Database List
-![Movie List](screenshots/database1.png)
-
-### User Page
-![Review Page](screenshots/userdb.png)
+![userdb](https://github.com/ADITISAHU1611/movie_library/assets/92028980/ca15f73f-1e41-4f2b-b9e9-6871dce4315f)
+![database1](https://github.com/ADITISAHU1611/movie_library/assets/92028980/618c4466-cc63-4657-bdce-4e2f50e14563)
+![watchlist](https://github.com/ADITISAHU1611/movie_library/assets/92028980/c44d05c7-cb10-4d36-bddd-1d704d4bff5b)
+![login](https://github.com/ADITISAHU1611/movie_library/assets/92028980/c33e9caf-9958-4c13-975a-5b0d6dd5baf8)
 
