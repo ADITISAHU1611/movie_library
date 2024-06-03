@@ -25,13 +25,14 @@ Before you begin, ensure you have met the following requirements:
 Clone the repository:
 
 ```sh
-git clone https://github.com/yourusername/movie-library-app.git
-cd movie-library-app
+git clone https://github.com/yourusername/movie_library.git
+cd movie_library
 
-## Screenshots
+Create MongoDB database using MongoDB atlas for free.
 
-![userdb](https://github.com/ADITISAHU1611/movie_library/assets/92028980/ca15f73f-1e41-4f2b-b9e9-6871dce4315f)
-![database1](https://github.com/ADITISAHU1611/movie_library/assets/92028980/618c4466-cc63-4657-bdce-4e2f50e14563)
-![watchlist](https://github.com/ADITISAHU1611/movie_library/assets/92028980/c44d05c7-cb10-4d36-bddd-1d704d4bff5b)
+run using npm start for both frontend and backend
+
+use API for movies.
+
 ![login](https://github.com/ADITISAHU1611/movie_library/assets/92028980/c33e9caf-9958-4c13-975a-5b0d6dd5baf8)
 
