@@ -1,0 +1,17 @@
+.navbar{
+    min-height: 80px;
+}
+.navbar-brand{
+    font-size: 1.8rem;
+}
+.movieSearchNav{
+    display: flex;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.backendnote{
+    color: white;
+}

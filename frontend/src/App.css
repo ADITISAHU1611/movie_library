@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Permanent+Marker&family=Poppins:wght@500&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+   font-size: 20px;
+   flex: 158;
+}
+body{
+  /* background-color: black; */
+  background-color: #0F0F0F;
+}
+.main{
+  /* background-color: black; */
+  background-color: #0F0F0F;
+}
+/* ::-webkit-scrollbar {
+  height: 4px;              
+  width: 4px;               
+  border: 1px solid #d5d5d5;
+} */
+.card{
+  cursor: pointer;
+}
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: darkgray; 
+}

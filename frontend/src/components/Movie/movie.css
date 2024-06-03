@@ -1,0 +1,244 @@
+/* filter & serachbar area start  */
+.main .nav2{
+    padding-top: 20px;
+    padding-bottom: 45px;
+  }
+  .main .filter ul{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .main .filter ul li{
+    list-style: none;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    flex: none;
+  }
+  .movieSearch{
+    justify-content: flex-end;
+  }
+  .movieSearch input{
+    width: 250px;
+  }
+  /* filter & serachbar area End */
+
+
+  
+
+.movieContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .movieContainer2 h1{
+    color: white;
+    margin-left: 80px;
+    margin-top: 70px;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+  }
+  
+  .movieContainer3 .tv,
+  .movieContainer3 .movie3{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movieContainer3 .tv .watchListmovieItems,
+  .movieContainer3 .movie3 .watchListmovieItems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 60px;
+  }
+  .movieContainer3 .tv .watchListmovieItems h4,
+  .movieContainer3 .movie3 .watchListmovieItems h4{
+    color: white;
+    padding-left: 20px;
+  }
+  
+
+ 
+
+
+
+
+
+
+
+
+.movie {
+    width: 190px;
+    /* width: 690px; */
+    margin: 0.6rem;
+    position: relative;
+    background-color: rgba(35, 35, 35, 0.899);
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    flex-shrink: 0;
+}
+
+.movie img {
+    float: left;
+    width: 100%;
+    cursor: pointer;
+}
+
+.movie-info {
+    opacity: 0;
+    transition: opacity .9s;
+}
+
+.movie .movie_info {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.884);
+}
+
+
+
+.movie-name h3 {
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    flex: 1;
+    letter-spacing: 0px;
+    padding: 10px 10px 5px;
+    margin: 0 0.5em 0 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.movie-info .releaseDate {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.movie-info .releaseDate h4 {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+
+.releaseDate span {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: black;
+    padding: 3px;
+}
+
+.movie-info .buttons {
+    position: absolute;
+}
+
+.movie-info .buttons button {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    margin-right: 5px;
+    border: none;
+}
+
+.movie-info .buttons .watchlist i {
+    font-size: 1rem;
+}
+
+.movie-info .buttons .watchlist i:hover {
+    color: rgb(8, 255, 8);
+    cursor: pointer;
+}
+
+.releaseDate .red {
+    color: red;
+}
+
+.releaseDate .green {
+    color: rgb(107, 171, 12);
+}
+
+.releaseDate .orange {
+    color: orange;
+}
+
+.movie{
+    transition: transform .2s;
+}
+ .movieItemHome{
+    width: 250px;
+  }
+  .movie:hover{
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+    z-index: 100;
+    box-shadow: 0px 10px 30px rgba(245, 222, 179, 0.658);
+  }
+  
+  .movie:hover .movie-info {
+    opacity: 1;
+    transition: opacity .9s;
+    cursor: pointer;
+}  
+
+@media screen and (max-width:500px) {
+    .movieSearch{
+        display: none;
+    }
+    .main .filter ul {
+        color: black;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        gap: 6px;
+    }
+    .main .filter ul::-webkit-scrollbar {
+        display: none;
+    }
+    .movieContainer2 h1 {
+        margin-left: 20px;
+        font-size: 1.5rem;
+        margin-top:30px;
+    }
+    
+    .movie{
+        width: 100px;
+        margin: 0.4rem;
+    }
+    .movieItemHome{
+        width: 190px;
+    }
+    .movie img {
+        border-radius: 10px;
+    }
+    .main .filter ul li {
+        padding: 2px 8px;
+        border-radius: 20px;
+        font-size: 13px;
+    }
+    .movie .movie_info {
+        display: none;
+    }
+    .movie-info .buttons .watchlist i {
+        font-size: .8rem;
+    }
+    .movie-info .buttons button {
+        padding: 3px;
+    }
+    .movie-info {
+        opacity: 1;
+    }
+    .main .nav2 {
+        padding-bottom: 20px;
+    }
+}
